@@ -24,7 +24,7 @@ class PHPUnit_Framework_Error extends PHPUnit_Framework_Exception
      * @param int       $line
      * @param Exception $previous
      */
-    public function __construct($message, $code, $file, $line, Exception $previous = null)
+    public function __construct($message, $code, $file, $line, Throwable $previous = null)
     {
         parent::__construct($message, $code, $previous);
 
